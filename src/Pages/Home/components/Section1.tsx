@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoMdArrowDropright } from 'react-icons/io'
 import heroImge from '../../../assets/employee track1.png'
 
