@@ -1,8 +1,14 @@
 
+import { useNavigate } from 'react-router-dom'
 import logo from '../../../assets/logo.png' 
 
 
 const Header = () => {
+
+
+  const navigate = useNavigate()
+
+
   return (
     <header>
         <nav className="bg-[#422b72] text-white ">
@@ -21,7 +27,7 @@ const Header = () => {
             <div className="flex justify-end p-6 basis-5/12 gap-5	">
               <button
                 type="submit"
-               
+                onClick={() => navigate("/login")}
                 className="hover:bg-white  md:outline-2  font-bold border-2	w-32 outline-[#422b72] rounded-[10px] hover:text-[#422b72] bg-[#422b72] text-white"
               >
                 LogIn

@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Section1 from './components/Section1'
 import UseCase from './components/UseCase'
@@ -15,6 +16,10 @@ const Home = () => {
     </div>
     <div id="useCase">
       <UseCase />
+    </div>
+
+    <div >
+     <Footer />           
     </div>
     
 </div>
